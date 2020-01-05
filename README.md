@@ -28,8 +28,6 @@ $ S3_BUCKET_NAME=XXX npm start
 ```
 $ export AWS_REGION=ap-northeast-1
 $ export S3_PRESIGNED_URL_EXPIRES=60
-$ export S3_BUCKET_NAME=XXX
-$ npm start
 ```
 
 ## access
