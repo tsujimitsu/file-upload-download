@@ -13,6 +13,8 @@ install aws-cli and initial setting
 $ git clone https://github.com/tsujimitsu/file-upload-download.git
 $ cd file-upload-download
 $ npm i
+$ cd frontend
+$ npm i
 ```
 
 ## running
