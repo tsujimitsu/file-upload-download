@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "e40d31b0-4127-4895-9d6f-99232e02b2fd",
+		"name": "apitest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "10b70ecc-5fb2-4e40-9449-45fcb0ef6176",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/v1/list/abc",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"list",
+						"abc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -34,3 +34,19 @@ $ export S3_PRESIGNED_URL_EXPIRES=60
 
 - access to localhost:8080 from Web Browser
 - ex. tenantId:abc123 -> http://localhost:8080/abc123
+
+## E2E UI Test
+
+```shell
+$ npm run test:ui
+```
+
+## E2E API Test
+
+```shell
+$ npm run test:api
+```
+
+## Reference
+
+- [Postman と Newman を組み合わせて、CI/CD に組み込む REST API の自動テストを作ろう！](https://qiita.com/developer-kikikaikai/items/74cedc67643ca93d2e0b)
